@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .form-select {
+    @apply bg-transparent text-blue-gray-700 border border-gray-300 text-sm  focus:ring-indigo-500 focus:border-indigo-500 block w-full p-2.5 rounded-[7px];
+  }
+}
